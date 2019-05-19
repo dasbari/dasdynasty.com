@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+<link rel="icon" type="image/icon" href="icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="css/invitePage.css">
+        <link rel="stylesheet" type="text/css" href="css/addPerson.css">
+  <!-- Demo styles -->
+  <style>
+    body {
+      background: linear-gradient(to left, #FFDF01 0%, #FFB302 100%);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+        background: linear-gradient(to left, #FFDF01 0%, #FFB302 100%);
+      width: 100%;
+    height:430px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+        position: absolute;
+        top:57%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px green;
+    }
+      .details{
+          width: 100%;
+          position: absolute;
+          top:105%;
+          left:80%;
+          transform: translate(-50%,-50%);
+      }
+      h3{
+         font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+        color: red;
+      }
+      #box5{
+    height:60px;
+    width:115px;
+    background-color: red; 
+    border-style: 2px solid white;
+    border-radius: 20px;
+    position:fixed;
+    top:9.5%;
+    left:67%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+  </style>
+</head>
+<body style="background: linear-gradient(to left, #FFDF01 0%, #FFB302 100%);">
+   <header>
+            <span id="icon"><img src="icons/anjanlogo.png"></span>
+            <div id="box5"></div>
+            <div id="container">
+                <div id="menu">
+                    <ul>
+                        <li><div id="home"><a href="homePage.html">HOME</a></div></li>
+                        <li><div id="invite"><a href="invitation.html">INVITATION</a></div></li>
+                        <li><div id="exp"><a href="expenses.html">EXPENSES</a></div></li>
+                        <li><div id="das"><a href="dasDynasty.html">DAS DYNASTY</a></div></li>
+                        <li><div id="gallery"><a href="Gallery.html">GALLERY</a></div></li>
+                    </ul>
+                </div>
+                <span id="logout"><img src="icons/logout.png"></span>
+                <span id="logoutText"><a href="index.html">LOG OUT</a></span>
+            </div>
+        </header> 
+    
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(dasDynasty/abheek%20das.jpeg)">
+        <div class="details"><h3>ABHEEK DAS</h3></div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/anjan%20das.jpeg)">
+            <div class="details"><h3>ANJAN DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/arabindra%20bhar.jpeg)">
+            <div class="details"><h3>ARABINDRA DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/arnu%20kumar%20das.jpeg)">
+            <div class="details"><h3>ARUN DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/ayan%20das.jpeg)">
+            <div class="details"><h3>AYAN DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/barun%20das.jpeg)">
+            <div class="details"><h3>BARUN DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/biswanath%20das.jpeg)">
+            <div class="details"><h3>BISWANATH DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/bratin%20das.jpeg)">
+            <div class="details"><h3>BRATIN DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/dibakar%20das.jpeg)">
+            <div class="details"><h3>DIBAKAR DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/narayan%20chandra%20das.jpeg)">
+            <div class="details"><h3>NARAYAN CHANDRA DAS</h3></div>
+        </div>
+      <div class="swiper-slide" style="background-image:url(dasDynasty/shyamapada%20das.jpeg)">
+            <div class="details"><h3>SHYAMAPADA DAS</h3></div>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<footer>
+            <span id="mini">
+                <span class="miniIcon"><a href="https://www.facebook.com/das.bari.104"><img src="icons/facebookBlue.png"></a></span>
+                <span class="miniIcon"><a href="https://www.youtube.com/channel/UClOENNtX9oitgFrpqv0qOmg/videos"><img src="icons/youtubeRed.png"></a></span>
+                <span class="miniIcon"><a href="https://www.instagram.com/dasbari_dasdynasty/"><img src="icons/instagram.png"></a></span>
+            </span>
+            <span id="email">e-mail: thedasdynasty@gmail.com</span>
+            <span id="tc">2019 | Developed by Apollo Biki and Anjan Das | Terms and Conditions Applied | All rights are reserved </span>
+        </footer>
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

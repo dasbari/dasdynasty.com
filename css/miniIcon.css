@@ -1,0 +1,222 @@
+#itemsSmall{
+    height:100px;
+    width:100%;
+    position: fixed;
+    top:83.5%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#ring15{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:12.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#ring16{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:25%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring17{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:37.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring18{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#ring19{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:62.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#ring20{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:75%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring21{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:87.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#round15 img{
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round16 img{
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:50%;
+    left:53%;
+    transform: translate(-50%,-50%);
+}
+#round17 img{
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:50%;
+    left:47.5%;
+    transform: translate(-50%,-50%);
+}
+#round18 img{
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:50%;
+    left:49%;
+    transform: translate(-50%,-50%);
+}
+#round19 img{
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round20 img{
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:50%;
+    left:53%;
+    transform: translate(-50%,-50%);
+}
+#round21 img{
+    height:50px;
+    width:50px;
+    position:fixed;
+    top:50%;
+    left:47.5%;
+    transform: translate(-50%,-50%);
+}
+#ring15:hover,#ring16:hover,#ring17:hover,#ring18:hover,#ring19:hover,#ring20:hover,#ring21:hover{
+    box-shadow: 0 0 15px red; 
+}
+#text1{
+    height:50px;
+    width:100%;
+    position: absolute;
+    top:92%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#grocery a,#fruit a,#vege a,#flower a,#doso a,#decor a,#sweets a,#others a{
+    text-decoration: none;
+    color: red; 
+    display: inline-block;
+    top: 0px;
+    font-family: "century gothic";
+    font-size: 14px;
+    position:relative; 
+}
+#grocery{
+    position:absolute;
+    top:46%;
+    left:12.5%;
+    transform: translate(-50%,-50%);
+}
+#fruit{
+    position:absolute;
+    top:46%;
+    left:25%;
+    transform: translate(-50%,-50%);
+}
+#vege{
+    position:absolute;
+    top:46%;
+    left:37.5%;
+    transform: translate(-50%,-50%);
+}
+#flower{
+    width:250px;
+    position:absolute;
+    top:46%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#doso{
+    position:absolute;
+    top:46%;
+    left:62.5%;
+    transform: translate(-50%,-50%);
+}
+#decor{
+    position:absolute;
+    top:46%;
+    left:75%;
+    transform: translate(-50%,-50%);
+}
+#sweets{
+    position:absolute;
+    top:46%;
+    left:87.5%;
+    transform: translate(-50%,-50%);
+}

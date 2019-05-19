@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<link href="css/maina.css" rel="stylesheet"/>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#mainicon").click(function(){
+            $("#mainmenu".css("left","0px");
+            function showMenu(){
+		      $("#mainmenu").css("-webkit-clip-path","polygon(0 0,100% 0,100% 100%,0% 100%)");
+		      $("#mainmenu").animate({right:'-100px'},300);
+		      }
+            setTimeout(showMenu,100);
+            )
+		});
+            $("#close").click(function(){
+               $("#mainmenu".css("-webkit-clip-path","polygon(0 0,0% 0,100% 100%,0% 100%"));
+			function hideMenu(){
+				$("#mainmenu").css("left","-300px");
+				$("#mainmenu").animate({right:'50px'},300);
+				}
+				setTimeout(hideMenu,300);
+				 function originalLayout(){
+					$("#mainmenu").css("-webkit-clip-path","polygon(0 0,100% 0,100% 100%,0% 100%)");
+					}
+					setTimeout(originalLayout,600);
+            });
+			
+        });
+		
+</script>
+<title>Untitled 1</title>
+</head>
+
+<body>
+	<div id="mainicon">
+		<div id="menuline"></div>
+	</div>
+	<div id="mainmenu">
+			
+	<ul>
+		<li><a href="home.html">HOME</a><div class="line"></div></li>
+		<li><a href="home.html">ADMIN</a><div class="line"></div></li>
+		<li><a href="home.html">LOGIN</a><div class="line"></div></li>
+		<li><a href="home.html">SIGN UP</a><div class="line"></div></li>
+		<li><a href="home.html">ABOUT</a><div class="line"></div></li>
+	</ul>
+	<div id="close">BACK</div>
+	</div>
+</body>
+
+</html>

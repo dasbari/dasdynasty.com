@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Add Person</title>
+        <link rel="icon" type="image/icon" href="icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="css/invitePage.css">
+        <link rel="stylesheet" type="text/css" href="css/addPerson.css">
+    </head>
+    <body>
+        <header>
+            <span id="icon"><img src="icons/anjanlogo.png"></span>
+            <div id="box"></div>
+            <div id="container">
+                <div id="menu">
+                    <ul>
+                        <li><div id="home"><a href="homePage.html">HOME</a></div></li>
+                        <li><div id="invite"><a href="invitation.html">INVITATION</a></div></li>
+                        <li><div id="exp"><a href="expenses.html">EXPENSES</a></div></li>
+                        <li><div id="das"><a href="dasDynasty.html">DAS DYNASTY</a></div></li>
+                        <li><div id="gallery"><a href="Gallery.html">GALLERY</a></div></li>
+                    </ul>
+                </div>
+                <span id="logout"><img src="icons/logout.png"></span>
+                <span id="logoutText"><a href="index.html">LOG OUT</a></span>
+            </div>
+        </header>
+        <div id="otherIcon">
+            <span id="otherMiniIcon1">
+                <div id="mini1"><a href="searchPerson.html"><img src="icons/searchPerson.ico"></a></div>
+            </span>
+            <span id="otherMiniIcon2">
+                <div id="mini2"><a href="updatePerson.html"><img src="icons/updatePerson.png"></a></div>
+            </span>
+            <span id="otherMiniIcon3">
+                <div id="mini3"><a href="deletePerson.html"><img src="icons/deleteperson.png"></a></div>
+            </span>
+        </div>
+        <div id="headText1" style="color: tomato;">----ADD PERSON----</div>
+        <div id="sideIcon">
+            <div id="inside"><img src="icons/addPerson.png"></div>
+        </div>
+        <div id="tableDiv">
+            <form action="insInv.php" method="post">
+                <table>
+                    <tr>
+                        <td>Enter Name :</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="iname" placeholder="Enter invited Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Address :</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="iadd" placeholder="Enter invited Address"></td>
+                    </tr>
+                    <tr>
+                        <td>No. of People Invited :</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="ino" placeholder="No. of invited"></td>
+                    </tr> 
+                    <tr>
+                        <td><input type="reset" value="CLEAR">
+                        <input type="submit" value="ADD PERSON"></td>
+                    </tr>
+                </table>
+             </form>
+        </div>
+        <footer>
+            <span id="mini">
+                <span class="miniIcon"><a href="https://www.facebook.com/das.bari.104"><img src="icons/facebookBlue.png"></a></span>
+                <span class="miniIcon"><a href="https://www.youtube.com/channel/UClOENNtX9oitgFrpqv0qOmg/videos"><img src="icons/youtubeRed.png"></a></span>
+                <span class="miniIcon"><a href="https://www.instagram.com/dasbari_dasdynasty/"><img src="icons/instagram.png"></a></span>
+            </span>
+            <span id="email">e-mail: thedasdynasty@gmail.com</span>
+            <span id="tc">2019 | Developed by Apollo Biki and Anjan Das | Terms and Conditions Applied | All rights are reserved </span>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Das Bari Kalipujo o Bhaiphonta</title>
+        <link rel="icon" type="image/icon" href="icons/favicon.png"/>
+        <script lang="javascript" type="text/javascript">
+            window.history.forward();
+        </script>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-image:url(images/background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            #content{
+                position: absolute;
+                bottom: 20%;
+                right: -120px;
+                transform: translate(-50%,-50%);
+            }
+            #form input[type="submit"]{
+                height: 40px;
+                width: 200px;
+                border-style: dashed;
+                background-color: transparent;
+                color: white;
+                border-radius: 10px;
+                font-size: 16px;
+                font-family: "century gothic";
+            }
+            #form1 input[type="submit"]{
+                height: 40px;
+                width: 405px;
+                background-color:green;
+                color: white;
+                border-radius: 10px;
+                border: none;
+                font-size: 16px;
+                font-family: "century gothic";
+            }
+            #form input[type="submit"]:hover{
+                cursor: pointer;
+                background-color: navajowhite;
+                color: black;
+            }
+            #form1 input[type="submit"]:hover{
+                cursor: pointer;
+                background-color:dodgerblue;
+                color: black;
+            }
+            #img img{
+                height:280px;
+                width:600px;
+                position:absolute;
+                top:40%;
+                left:78%;
+                transform: translate(-50%,-50%);
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+        <div id="img"><img src="icons/anjanlogo.png"></div>
+        <div id="content">
+            <div id="form">
+                <form action="login.php" method="post">
+                    <input type="submit" value="LOGIN"/>
+                    <input type="submit" value="SIGN UP"/>
+                </form>
+            </div>
+            <div id="form1">
+                <form action="Gallery.html" method="post">
+                    <input type="submit" value="GALLERY"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

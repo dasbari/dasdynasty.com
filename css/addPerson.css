@@ -1,0 +1,309 @@
+#otherIcon{
+    height: 500px;
+    width:150px;
+    position: fixed;
+    top:55%;
+    left:87%;
+    transform: translate(-50%,-50%);
+}    
+#mini1 img,#mini2 img,#mini3 img{
+    height:100px;
+    width:100px;
+    padding:10px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+#otherMiniIcon1{
+    border:2px solid red;
+    border-radius: 50px;
+    height:150px;
+    width:150px;
+    position: fixed;
+    top:18%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(100%);
+    background-color: white;
+}
+#otherMiniIcon2{
+    border:2px solid red;
+    border-radius: 50px;
+    height:150px;
+    width:150px;
+    position: fixed;
+    top:50.5%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(100%);
+    background-color: white;
+}
+#otherMiniIcon3{
+    border:2px solid red;
+    border-radius: 50px;
+    height:150px;
+    width:150px;
+    position: fixed;
+    top:83%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(100%);
+    background-color: white;
+}
+#otherMiniIcon1:hover,#otherMiniIcon2:hover,#otherMiniIcon3:hover{
+    filter: grayscale(0%);
+    box-shadow: 0 0 20px green;
+}
+#otherIcon a{
+    text-decoration: none;
+    font-family: "century gothic";
+    color:black;
+}
+#headText1{
+    height:50px;
+    width:500px;
+    padding:10px;
+    box-shadow: 0 0 20px black;
+    position: fixed;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: "century gothic";
+    font-size:36px;
+    border-radius: 20px;
+    background-color: white;
+}
+#sideIcon{
+    height:200px;
+    width:200px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 20px tomato;
+    position: fixed;
+    top:50%;
+    left:15%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+#inside img{
+    height: 180px;
+    width:180px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#tableDiv{
+    padding: 10px;
+    height:380px;
+    width:600px;
+    box-shadow: 0 0 20px black;
+    border-radius: 50px;
+    position: fixed;
+    top:62%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+table{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#searchTab table{
+    position: fixed;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width:600px;
+    border-radius:10px 10px 0 0;
+    box-shadow: 0 0 20px black;
+}
+input{
+               
+    margin-bottom:20px;
+}
+input[type="text"]{
+     width: 100%;
+     border: 2px solid #fff;
+     padding:8px;
+     background:white;
+     outline:none;
+     height:40px;
+     color:#fff;
+     font-size:16px;
+     border-radius: 10px;
+     box-sizing: border-box;
+    border: 1px solid black;
+     color: black;
+ }
+ input[type="text"]:focus{
+     border-color: dodgerblue;
+     box-shadow: 0 0 8px 0 dodgerblue;
+ }
+ table tr td {
+     color: black;
+     font-size: 20px; 
+               
+ }
+ input[type="submit"]{
+     position: relative;
+     border-radius: 0 10px 10px 0;
+     height: 50px;
+     width:240px;
+     background-color: forestgreen;
+     color:white;
+     border: none;
+     right: 2.5px;
+     font-size: 20px;
+     font-family: "century gothic";
+ }
+input[type="reset"]{
+    position: relative;
+    border-radius: 10px 0px 0 10px;
+    height: 50px;
+    width:250px;
+    background-color: #ffc107;
+    color:black;
+    border: none;
+    left:2.5px;
+    font-size: 20px;
+    font-family: "century gothic";
+}
+input[type="reset"]:hover{
+    background-color:greenyellow;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color:chocolate;
+    cursor: pointer;
+}
+#otherIconChart{
+    height: 500px;
+    width:150px;
+    position: fixed;
+    top:55%;
+    left:87%;
+    transform: translate(-50%,-50%);
+}    
+#miniC1 img,#miniC2 img,#miniC3 img,#miniC4 img{
+    height:70px;
+    width:70px;
+    padding:10px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+#otherMiniIconC1{
+    border:2px solid red;
+    border-radius: 20px;
+    height:100px;
+    width:100px;
+    position: fixed;
+    top:18%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+#otherMiniIconC2{
+    border:2px solid red;
+    border-radius: 20px;
+    height:100px;
+    width:100px;
+    position: fixed;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+#otherMiniIconC3{
+    border:2px solid red;
+    border-radius: 20px;
+    height:100px;
+    width:100px;
+    position: fixed;
+    top:62%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+#otherMiniIconC4{
+    border:2px solid red;
+    border-radius: 20px;
+    height:100px;
+    width:100px;
+    position: fixed;
+    top:84%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+#otherMiniIconC1:hover,#otherMiniIconC2:hover,#otherMiniIconC3:hover,#otherMiniIconC4:hover,#otherMiniIconUC:hover{
+    box-shadow: 0 0 20px green;
+}
+#otherIcon a{
+    text-decoration: none;
+    font-family: "century gothic";
+    color:black;
+}
+#box5{
+    height:60px;
+    width:115px;
+    background-color: red; 
+    border-style: 2px solid white;
+    border-radius: 20px;
+    position:fixed;
+    top:9.5%;
+    left:57.25%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+#successimg img{
+    width:1000px;
+    height:670px;
+    border-radius: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 20px black;
+}
+h1{
+    font-size: 40px;
+    font-family: "century gothic";
+    color: white;
+    position: absolute;
+    top:23%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+#backButton{
+    height:120px;
+    width:120px;
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+#bckBtn img{
+    height:120px;
+    width:120px;
+}
+#delimg img{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}

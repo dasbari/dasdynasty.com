@@ -1,0 +1,1 @@
+<a title="print screen" alt="print screen" onclick="window.print();" target="_blank" style="cursor:pointer;"><image src="icons/print-icon.png"></image></a>

@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>Photos</title>
+        <link rel="icon" type="image/icon" href="icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="css/buy.css">
+        <link rel="stylesheet" type="text/css" href="css/kaliItems.css">
+        <link rel="stylesheet" type="text/css" href="css/galleryStaffs.css">
+        <style>
+            body{
+                background-color: white;
+                margin:0;
+                padding:0;
+            }
+            h1{
+                width:100%;
+                text-align: center;
+                font-family: "century gothic";
+                color:royalblue;
+                position: absolute;
+                top:30%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+            #video img{
+                height:400px;
+                width:500px;
+                position: absolute;
+                top:70%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+            header{
+    height:19%;
+    width:100%;
+    background-color: #1d1717;
+    position: fixed;
+}
+#icon{
+    position:fixed;
+    top:10%;
+    left:15%;
+    transform: translate(-50%,-50%);
+}
+#icon img{
+    width: 500px;
+}
+            #container{
+    height:100px;
+    width:100%;
+    top:50%;
+    left:60%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+}
+#menu{
+    width:100%;
+    padding:5px;
+    position: fixed;
+    top:50%;
+    left:74%;
+    text-align:left;
+    transition:0.5s;
+    transform: translate(-50%,-50%);
+}
+#menu a{
+    text-decoration: none;
+    color: white; 
+    display: inline-block;
+    top: 0px;
+    position:relative;
+    }
+#menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:20px; 
+    color:white;
+    font-size:16px;
+    font-family: "century gothic";
+    cursor: pointer;
+    transition:.5s;	
+}
+#menu ul li:hover{
+    border-radius: 20px;
+    background-color: red;
+}
+#logout{
+    height: 53px;
+    width:140px;
+    position:fixed;
+    top:50%;
+    left:84%;
+    transform: translate(-50%,-50%);
+    background-color: #c7b91f;
+    border-radius: 20px;
+}
+#logoutText{
+    width:80px;
+    position:fixed;
+    top:50%;
+    left:86%;
+    transform: translate(-50%,-50%);
+    background-color: #c7b91f;
+}
+#logout img{
+    height:50px;
+    width:50px;
+}
+#logoutText a{
+    text-decoration: none;
+    color: white; 
+    display: inline-block;
+    top: 0px;
+    position:relative; 
+}
+            footer{
+    height:40px;
+    width:100%;
+    position: fixed;
+    top:98%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #1d1717;
+}
+#mini{
+    width:200px;
+    position: fixed;
+    top:50%;
+    left:32%;
+    transform: translate(-50%,-50%);
+
+}
+.miniIcon img{
+    height:30px;
+    width:30px;
+    padding: 10px;
+    filter: grayscale(100%);
+}
+.miniIcon img:hover{
+    filter: grayscale(0%);
+}
+#email{
+    color: white;
+    font-family: "century gothic";
+    position: fixed;
+    top:23%;
+    left:15px;
+}
+
+#tc{
+    color: white;
+    font-family: "century gothic";
+    position: fixed;
+    top:23%;
+    right:15px;
+}
+
+        </style>
+    </head>
+    <body>
+    <header>
+        <span id="icon"><img src="icons/anjanlogo.png"></span>
+        <div id="box5"></div>
+        <div id="container">
+            <div id="menu">
+                <ul>
+                    <li><div id="home"><a href="homePage.html">HOME</a></div></li>
+                    <li><div id="invite"><a href="invitation.html">INVITATION</a></div></li>
+                    <li><div id="exp"><a href="expenses.html">EXPENSES</a></div></li>
+                    <li><div id="das"><a href="dasDynasty.html">DAS DYNASTY</a></div></li>
+                    <li><div id="gallery"><a href="Gallery.html">GALLERY</a></div></li>
+                </ul>
+            </div>
+            <span id="logout"><img src="icons/logout.png"></span>
+            <span id="logoutText"><a href="index.html">LOG OUT</a></span>
+        </div>
+    </header>
+    <div id="video">
+        <h1>Please visit our YOUTUBE Channel to view Videos</h1>
+        <a href="https://www.youtube.com/channel/UClOENNtX9oitgFrpqv0qOmg/videos"><img src="gif/youtube.gif"></a>
+    </div>
+    <footer>
+        <span id="mini">
+                <span class="miniIcon"><a href="https://www.facebook.com/das.bari.104"><img src="icons/facebookBlue.png"></a></span>
+                <span class="miniIcon"><a href="https://www.youtube.com/channel/UClOENNtX9oitgFrpqv0qOmg/videos"><img src="icons/youtubeRed.png"></a></span>
+                <span class="miniIcon"><a href="https://www.instagram.com/dasbari_dasdynasty/"><img src="icons/instagram.png"></a></span>
+            </span>
+        <span id="email">e-mail: thedasdynasty@gmail.com</span>
+        <span id="tc">2019 | Developed by Apollo Biki and Anjan Das | Terms and Conditions Applied | All rights are reserved </span>
+    </footer>
+        </body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Add Person</title>
+        <link rel="stylesheet" type="text/css" href="css/invitePage.css">
+        <link rel="stylesheet" type="text/css" href="css/addPerson.css">
+    </head>
+    <body>
+        <header>
+            <span id="icon"><img src="icons/anjanlogo.png"></span>
+            <div id="box"></div>
+            <div id="container">
+                <div id="menu">
+                    <ul>
+                        <li><div id="home"><a href="homePage.html">HOME</a></div></li>
+                        <li><div id="invite"><a href="#">INVITATION</a></div></li>
+                        <li><div id="buy"><a href="#">WHAT HAVE TO BUY ?</a></div></li>
+                        <li><div id="print"><a href="#">PRINT LIST</a></div></li>
+                        <li><div id="das"><a href="#">DAS DYNASTY</a></div></li>
+                        <li><div id="gallery"><a href="Gallery.html">GALLERY</a></div></li>
+                    </ul>
+                </div>
+                <span id="logout"><img src="icons/logout.png"></span>
+                <span id="logoutText"><a href="logout.html">LOG OUT</a></span>
+            </div>
+        </header>
+        
+        <footer>
+            <span id="mini">
+                <span class="miniIcon"><img src="icons/facebookBlue.png"></span>
+                <span class="miniIcon"><img src="icons/youtubeRed.png"></span>
+                <span class="miniIcon"><img src="icons/instagram.png"></span>
+            </span>
+            <span id="email">e-mail: anjandas96.das@gmail.com</span>
+            <span id="tc">2019 | Developed by Apollo Biki and Anjan Das | Terms and Conditions Applied | All rights are reserved </span>
+        </footer>
+    </body>
+</html>

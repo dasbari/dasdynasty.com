@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-image: url(others%20image/background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            #content{
+                position: absolute;
+                bottom: 20%;
+                right: -120px;
+                transform: translate(-50%,-50%);
+            }
+            #form input[type="submit"]{
+                height: 40px;
+                width: 200px;
+                border-style: dashed;
+                background-color: transparent;
+                color: white;
+                border-radius: 20px;
+                font-size: 16px;
+                font-family: "century gothic";
+            }
+            #form1 input[type="submit"]{
+                height: 40px;
+                width: 405px;
+                background-color:green;
+                color: white;
+                border-radius: 20px;
+                border: none;
+                font-size: 16px;
+                font-family: "century gothic";
+            }
+            #form input[type="submit"]:hover{
+                cursor: pointer;
+                background-color: navajowhite;
+                color: black;
+            }
+            #form1 input[type="submit"]:hover{
+                cursor: pointer;
+                background-color:dodgerblue;
+                color: black;
+            }
+        </style>
+    </head>
+    <title>Das Bari Kalipujo o Bhaiphonta</title>
+    
+    <body style="margin: 0px; padding: 0px; background-image: url(others%20image/background.jpg); background-size: cover;background-position: center;">
+        <div id="content">
+            <div id="form">
+                <form action="login.php" method="post">
+                    <input type="submit" value="LOGIN"/>
+                    <input type="submit" value="SIGN UP"/>
+                </form>
+            </div>
+            <div id="form1">
+                <form action="Gallery.html" method="post">
+                    <input type="submit" value="GALLERY"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

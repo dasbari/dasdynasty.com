@@ -1,0 +1,259 @@
+#items{
+    height:500px;
+    width:100%;
+    position: fixed;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#ring7{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:23%;
+    left:12.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#ring8{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:23%;
+    left:37.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring9{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:23%;
+    left:62.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring10{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:23%;
+    left:87.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#ring11{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:71.5%;
+    left:12.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#ring12{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:71.5%;
+    left:37.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring13{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:71.5%;
+    left:62.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+
+#ring14{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:71.5%;
+    left:87.5%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 0 15px;
+    background-color: white;
+}
+#round7 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round8 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round9 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round10 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round11 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round12 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#round13 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:47.5%;
+    transform: translate(-50%,-50%);
+}
+#round14 img{
+    height:150px;
+    width:150px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#inviteText1 img{
+    height:40px;
+    width:300px;
+    position:fixed;
+    top:22%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#ring7:hover,#ring8:hover,#ring9:hover,#ring10:hover,#ring11:hover,#ring12:hover,#ring13:hover,#ring14:hover{
+    box-shadow: 0 0 15px red; 
+}
+#text{
+    height:500px;
+    width:100%;
+    position: absolute;
+    top:60%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+#grocery a,#fruit a,#vege a,#flower a,#doso a,#decor a,#sweets a,#others a{
+    text-decoration: none;
+    color: red; 
+    display: inline-block;
+    top: 0px;
+    font-family: "century gothic";
+    font-size: 17px;
+    position:relative; 
+}
+#grocery{
+    position:absolute;
+    top:46%;
+    left:12.5%;
+    transform: translate(-50%,-50%);
+}
+#fruit{
+    position:absolute;
+    top:46%;
+    left:37.5%;
+    transform: translate(-50%,-50%);
+}
+#vege{
+    position:absolute;
+    top:46%;
+    left:62.5%;
+    transform: translate(-50%,-50%);
+}
+#flower{
+    width:250px;
+    position:absolute;
+    top:46%;
+    left:88%;
+    transform: translate(-50%,-50%);
+}
+#doso{
+    position:absolute;
+    top:95%;
+    left:12.5%;
+    transform: translate(-50%,-50%);
+}
+#decor{
+    position:absolute;
+    top:95%;
+    left:37.7%;
+    transform: translate(-50%,-50%);
+}
+#sweets{
+    position:absolute;
+    top:95%;
+    left:62.5%;
+    transform: translate(-50%,-50%);
+}
+#others{
+    width:250px;
+    position:absolute;
+    top:95%;
+    left:88%;
+    transform: translate(-50%,-50%);
+}

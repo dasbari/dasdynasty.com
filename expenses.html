@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title>Add Expenses</title>
+        <link rel="icon" type="image/icon" href="icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="css/invitePage.css">
+        <link rel="stylesheet" type="text/css" href="css/addPerson.css">
+        <link rel="stylesheet" type="text/css" href="css/calculator.css">
+        <link rel="stylesheet" type="text/css" href="css/mainBuyMini.css">
+        <link rel="stylesheet" type="text/css" href="css/miniIcon1.css">
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        
+        <script type="text/javascript">
+		$(document).ready(function(){
+			$("#otherMiniIconC4").click(function(){
+				$("#calFrame").css("visibility","visible");
+                $("#crossM").css("visibility","visible");
+                $("#otherMiniIconC1").css("visibility","hidden");
+                $("#otherMiniIconC2").css("visibility","hidden");
+                $("#otherMiniIconC3").css("visibility","hidden");
+                $("#otherMiniIconC4").css("visibility","hidden");
+            });
+            $("#crossM").click(function(){
+                $("#crossM").css("visibility","hidden");
+				$("#calFrame").css("visibility","hidden");
+                $("#otherMiniIconC1").css("visibility","visible");
+                $("#otherMiniIconC2").css("visibility","visible");
+                $("#otherMiniIconC3").css("visibility","visible");
+                $("#otherMiniIconC4").css("visibility","visible");
+            });
+        });
+        </script>
+        <script> 
+		//function that display value 
+		function dis(val) 
+		{ 
+			document.getElementById("result").value+=val 
+		} 
+		
+		//function that evaluates the digit and return result 
+		function solve() 
+		{ 
+			let x = document.getElementById("result").value 
+			let y = eval(x) 
+			document.getElementById("result").value = y 
+		} 
+		
+		//function that clear the display 
+		function clr() 
+		{ 
+			document.getElementById("result").value = "" 
+		}
+        window.addEventListener("keypress",checkkeypress,false);
+            
+            function checkkeypress(key){
+                if (key.keyCode=="15"){
+                    alert("enter is pressed");
+                }
+            }
+	</script>
+        
+    </head>
+    <body>
+        <header>
+            <span id="icon"><img src="icons/anjanlogo.png"></span>
+            <div id="box5"></div>
+            <div id="container">
+                <div id="menu">
+                    <ul>
+                        <li><div id="home"><a href="homePage.html">HOME</a></div></li>
+                        <li><div id="invite"><a href="invitation.html">INVITATION</a></div></li>
+                        <li><div id="exp"><a href="expenses.html">EXPENSES</a></div></li>
+                        <li><div id="das"><a href="dasDynasty.html">DAS DYNASTY</a></div></li>
+                        <li><div id="gallery"><a href="Gallery.html">GALLERY</a></div></li>
+                    </ul>
+                </div>
+                <span id="logout"><img src="icons/logout.png"></span>
+                <span id="logoutText"><a href="index.html">LOG OUT</a></span>
+            </div>
+        </header>
+        <div id="otherIcon1">
+            <span id="otherMiniIconUC">
+                <div id="mini5"><a href="updateExpenses.html"><img src="icons/updateExpense.png"></a></div>
+            </span>
+        </div>
+        <div id="otherIconChart">
+            <span id="otherMiniIconC1">
+                <div id="miniC1"><a href="graph.php"><img src="icons/LineGraph.png"></a></div>
+            </span>
+            <span id="otherMiniIconC2">
+                <div id="miniC2"><a href="barGraph.php"><img src="icons/barGraph.png"></a></div>
+            </span>
+            <span id="otherMiniIconC3">
+                <div id="miniC3"><a href="pieGraph.php"><img src="icons/pieGraph.png"></a></div>
+            </span>
+            <span id="otherMiniIconC4">
+                <div id="miniC4"><img src="icons/calculator.png"></div>
+            </span>
+        </div>
+        <div id="headText1" style="color: tomato;">----ADD EXPENSES----</div>
+        <div id="sideIcon">
+            <div id="inside"><img src="icons/addExpense.png" style="border-radius: 20px;"></div>
+        </div>
+        <div id="tableDiv">
+            <form action="insExp.php" method="post">
+                <table>
+                    <tr>
+                        <td style="color: red; font-size: 20px;">***Note : Please Add each Category Once ** </td>
+                    </tr>
+                    <tr>
+                        <td>Choose Year :</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="year">
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Choose Category :</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="category">
+                                <option value="no-choose">--select category from here--</option>
+                                <option value="Grocery">Grocery</option>
+                                <option value="Flower">Flower</option>
+                                <option value="Dosokorma">Dosokorma</option>
+                                <option value="Thakur er Saaj">Thakur er Saaj</option>
+                                <option value="Fruits">Fruits</option>
+                                <option value="Pandel">Pandel</option>
+                                <option value="Radhuni">Radhuni(cook)</option>
+                                <option value="Fish">Fish</option>
+                                <option value="Vegetable">Vegetable</option>
+                                <option value="Bajna">Bajna</option>
+                                <option value="Electrician">Electrician</option>
+                                <option value="Thakur gorar silpi">Thakur gorar silpi (Sculpture artist)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Expenses :(&#x20b9;)</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="exp" placeholder="Enter amount of Expenses"></td>
+                    </tr> 
+                    <tr>
+                        <td><input type="reset" value="CLEAR">
+                        <input type="submit" value="ADD EXPENSES (&#x20b9;)"></td>
+                    </tr>
+                </table>
+             </form>
+        </div>
+        <div id="calFrame">
+	<table id="calculator"> 
+		<tr> 
+			<td colspan="4"><input class="txtcal" type="text" id="result"/></td> 
+		</tr> 
+		<tr> 
+			<!-- create button and assign value to each button -->
+			<!-- dis("1") will call function dis to display value -->
+			<td><input class="buttoncal" type="button" value="+" onclick="dis('+')"/> </td> 
+			<td><input class="buttoncal" type="button" value="-" onclick="dis('-')"/> </td> 
+			<td><input class="buttoncal" type="button" value="x" onclick="dis('*')"/> </td> 
+			<td><input class="buttoncal" type="button" value="÷" onclick="dis('/')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input class="buttoncal" type="button" value="7" onclick="dis('7')"/> </td> 
+			<td><input class="buttoncal" type="button" value="8" onclick="dis('8')"/> </td> 
+			<td><input class="buttoncal" type="button" value="9" onclick="dis('9')"/> </td>
+            <td rowspan="4" style="height:100px;"><input class="buttoncal" type="button" value="=" onclick="solve()"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input class="buttoncal" type="button" value="4" onclick="dis('4')"/> </td> 
+			<td><input class="buttoncal" type="button" value="5" onclick="dis('5')"/> </td> 
+			<td><input class="buttoncal" type="button" value="6" onclick="dis('6')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input class="buttoncal" type="button" value="1" onclick="dis('1')"/> </td> 
+			<td><input class="buttoncal" type="button" value="2" onclick="dis('2')"/> </td> 
+			<td><input class="buttoncal" type="button" value="3" onclick="dis('3')"/> </td> 
+		</tr> 
+        <tr> 
+			<td><input class="buttoncal" type="button" value="c" onclick="clr()"/> </td>
+			<td><input class="buttoncal" type="button" value="0" onclick="dis('0')"/> </td> 
+			<td><input class="buttoncal" type="button" value="." onclick="dis('.')"/> </td> 
+		</tr> 
+	</table>
+    </div>
+        <div id="crossM">
+            <div id="background"><img src="icons/deleteIcon.png"></div>
+        </div>
+        <footer>
+            <span id="mini">
+                <span class="miniIcon"><a href="https://www.facebook.com/das.bari.104"><img src="icons/facebookBlue.png"></a></span>
+                <span class="miniIcon"><a href="https://www.youtube.com/channel/UClOENNtX9oitgFrpqv0qOmg/videos"><img src="icons/youtubeRed.png"></a></span>
+                <span class="miniIcon"><a href="https://www.instagram.com/dasbari_dasdynasty/"><img src="icons/instagram.png"></a></span>
+            </span>
+            <span id="email">e-mail: thedasdynasty@gmail.com</span>
+            <span id="tc">2019 | Developtioned by Apollo Biki and Anjan Das | Terms and Conditions Applied | All rights are reserved </span>
+        </footer>
+    </body>
+</html>
